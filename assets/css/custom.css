@@ -1,0 +1,42 @@
+.parallax {
+    /* Set a specific height */
+    height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.top-nav-collapse {
+    background-color: #82b1ff !important;
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #82b1ff !important;
+    }
+}
+.intro-1 {
+    height: 1050px;
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+    .intro-1 {
+        height: 750px;
+    }
+}
+@media (max-width: 740px) {
+    .intro {
+        height: 600px;
+    }
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
