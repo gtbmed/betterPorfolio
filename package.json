@@ -1,0 +1,22 @@
+{
+  "name": "betterportfolio",
+  "version": "1.0.0",
+  "description": "Sticking the portfolio page on github so if I get an idea, I can add it anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtbmed/betterPorfolio.git"
+  },
+  "author": "john barson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtbmed/betterPorfolio/issues"
+  },
+  "homepage": "https://github.com/gtbmed/betterPorfolio#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
+}
