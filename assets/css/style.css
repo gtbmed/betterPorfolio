@@ -1,0 +1,15 @@
+.ul_tools li {
+    display: inline;
+}
+
+.img_tools {
+  max-height: 100px;
+  max-width: 200px;
+  padding: 2px;
+}
+
+.img_tools_sq {
+  max-height: 100px;
+  max-width: 100px;
+  padding: 2px;
+}
